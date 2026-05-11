@@ -1,6 +1,6 @@
 # roast-my-deck 🔥
 
-A CLI tool that brutally roasts your pitch deck using Claude AI, trained on real funded decks.
+A CLI tool that brutally roasts your pitch deck using Claude, trained on real funded decks.
 
 Also ships as a `/roast` skill for Claude Code — no API key needed.
 
