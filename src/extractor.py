@@ -29,7 +29,17 @@ def extract_from_pdf(path: str) -> str:
     text = _try_text_extraction(pdf_path)
 
     if len(text.strip()) < MIN_TEXT_LENGTH:
-        text = _try_ocr_extraction(pdf_path)
+        try:
+            text = _try_ocr_extraction(pdf_path)
+        except ValueError as exc:
+            raise ValueError(
+                f"'{pdf_path.name}' is an image-based PDF with no embedded text.\n"
+                f"Options:\n"
+                f"  1. Use /roast in Claude Code — it reads slides visually (no OCR needed)\n"
+                f"  2. Install OCR: pip install easyocr  (then rerun)\n"
+                f"  3. Copy-paste your deck text: python3 roast.py  (no PDF needed)\n"
+                f"\nOCR error: {exc}"
+            ) from exc
 
     if not text.strip():
         raise ValueError(f"No readable text found in '{path}'")
