@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="roast-my-deck",
+    name="roast-my-deck-skill",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -20,7 +20,7 @@ setup(
     description="Brutally roast your pitch deck with Claude AI",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/roast-my-deck",
+    url="https://github.com/alizhannurgazy/roast-my-deck-skill",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

@@ -9,33 +9,33 @@ Also ships as a `/roast` skill for Claude Code — no API key needed.
 ## quickstart (2 minutes)
 
 ```bash
-git clone https://github.com/yourusername/roast-my-deck
-cd roast-my-deck
+git clone https://github.com/alizhannurgazy/roast-my-deck-skill
+cd roast-my-deck-skill
 bash install.sh
 ```
 
-That's it. The repo already includes context from 12 real funded decks ($1.3M–$22M raised). You're ready to roast.
+That's it. The repo ships with context from 12 real funded decks ($1.3M–$22M raised). You're ready to roast immediately.
 
 ---
 
 ## usage
 
-### option A — Claude Code skill (recommended, no API key)
+### option A — Claude Code skill (recommended, free, no API key)
 
-Open Claude Code in the project directory:
+After running `install.sh`, use `/roast` in **any** Claude Code session:
 
 ```bash
 /roast deck.pdf       # roast a PDF
 /roast                # paste your deck manually
 ```
 
-Claude roasts it directly. Free, instant, no setup beyond `bash install.sh`.
+Works from any directory. Claude reads your deck visually (handles image-based PDFs from Figma, Canva, Google Slides) and roasts it using context from real funded decks.
 
 ### option B — CLI tool (requires Anthropic API key)
 
 ```bash
 cp .env.example .env
-# edit .env and add your ANTHROPIC_API_KEY
+# add your ANTHROPIC_API_KEY to .env
 # get your key at console.anthropic.com (~$0.003 per roast)
 
 python3 roast.py deck.pdf   # roast a PDF
@@ -44,18 +44,17 @@ python3 roast.py            # paste mode, press Enter twice to submit
 
 ---
 
-## add your own funded decks (makes roasts sharper)
+## add your own funded decks
 
-Drop PDF pitch decks into the `decks/` folder, then run:
+Drop PDF pitch decks into the `decks/` folder, then:
 
 ```bash
 python3 ingest.py
 ```
 
-This extracts the text and adds it to `context/successful_decks.txt`.
-Both `/roast` and the CLI automatically load this context.
+This extracts the text and updates `context/successful_decks.txt`. Both the skill and CLI load this context automatically — the more funded decks you add, the sharper the roasts.
 
-The repo ships with 12 pre-ingested funded decks out of the box:
+The repo ships with 12 pre-ingested funded decks:
 
 | Company | Round | Raised |
 |---|---|---|
@@ -72,7 +71,7 @@ The repo ships with 12 pre-ingested funded decks out of the box:
 | Smartrr | Series A | $10M |
 | Storiaverse | Pre-Seed | $2.5M |
 
-> The PDFs themselves are not in the repo (copyright). Only the extracted text context is committed.
+> PDFs are not in the repo (copyright). Only the extracted text context is committed.
 
 ---
 
@@ -81,11 +80,12 @@ The repo ships with 12 pre-ingested funded decks out of the box:
 ```
 your deck (PDF or paste)
         ↓
-   text extraction  ← PyMuPDF (text-based PDFs)
+   text extraction (PyMuPDF)
+   or visual rendering for image-based PDFs
         ↓
-   funded deck context  ← context/successful_decks.txt
+   funded deck context (context/successful_decks.txt)
         ↓
-   brutal VC persona  ← Claude AI
+   brutal foul-mouthed VC persona (Claude AI)
         ↓
    roast + 3 actionable fixes
 ```
@@ -95,16 +95,16 @@ your deck (PDF or paste)
 ## project structure
 
 ```
-roast-my-deck/
+roast-my-deck-skill/
 ├── src/
-│   ├── extractor.py      PDF text extraction (text-based + OCR fallback)
+│   ├── extractor.py      PDF text extraction + OCR fallback
 │   ├── ingestor.py       bulk deck ingestion
 │   ├── roaster.py        Claude API calls (CLI mode)
 │   └── formatter.py      terminal output formatting
 ├── skill/
 │   └── SKILL.md          /roast skill for Claude Code
 ├── context/
-│   └── successful_decks.txt   pre-ingested funded deck context ✓ committed
+│   └── successful_decks.txt   pre-ingested funded deck context
 ├── decks/
 │   └── .gitkeep          drop your funded PDFs here (gitignored)
 ├── tests/
@@ -118,20 +118,20 @@ roast-my-deck/
 
 ## contributing
 
-PRs welcome — especially:
-- More funded deck PDFs (run `python3 ingest.py` and commit the updated `context/successful_decks.txt`)
-- Better OCR support for image-based PDFs
-- Additional roast personas (angels, accelerators, corporate VCs)
+PRs welcome:
+- Add more funded decks: drop PDFs in `decks/`, run `python3 ingest.py`, commit `context/successful_decks.txt`
+- Better OCR for image-based PDFs
+- More roast personas (angels, accelerators, corporate VCs)
 
 ---
 
 ## stack
 
 - Python 3.10+
-- Claude claude-sonnet-4-20250514 — CLI mode
-- Claude Code skill — `/roast` mode (no API key)
-- PyMuPDF — PDF extraction
-- Colorama — terminal colors
+- [Claude Sonnet](https://anthropic.com) — CLI mode
+- [Claude Code](https://claude.ai/code) skill — `/roast` mode (no API key)
+- [PyMuPDF](https://pymupdf.readthedocs.io) — PDF extraction
+- [Colorama](https://github.com/tartley/colorama) — terminal colors
 
 ---
 

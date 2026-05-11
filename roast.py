@@ -20,7 +20,7 @@ def main() -> None:
     if context:
         print_success("Loaded funded deck context — roast will be extra sharp.")
     else:
-        print_warning("No context found. Run 'python ingest.py' to train on funded decks.")
+        print_warning("No context found. Run 'python3 ingest.py' to train on funded decks.")
 
     deck_text = _get_deck_text()
     if not deck_text:
