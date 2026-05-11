@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+context/successful_decks.txt
+decks/*.pdf
+.DS_Store
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.claude/
