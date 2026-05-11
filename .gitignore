@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 *.pyo
 decks/*.pdf
+decks/*.png
+decks/*.jpg
+decks/*.jpeg
 .DS_Store
 venv/
 .venv/
