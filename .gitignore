@@ -2,7 +2,6 @@
 __pycache__/
 *.pyc
 *.pyo
-context/successful_decks.txt
 decks/*.pdf
 .DS_Store
 venv/

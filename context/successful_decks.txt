@@ -1,0 +1,422 @@
+=== DECK: Candidate.fyi - $1.3M Pre-Seed.pdf ===
+COMPANY: Candidate.fyi — The Hiring Experience Platform
+ROUND: Pre-Seed, $1.3M
+
+TAGLINE: The hiring experience platform
+
+PROBLEM:
+- There's a growing labor shortage: 85 million unfilled roles
+- Employers have a new type of candidate to manage
+- 40% of candidates drop off during manual hiring processes
+- Existing tools are not designed for the candidate experience
+
+CUSTOMERS: Signal, Talkdesk, Go1, Jumpla, Toric, and other world-class companies
+
+SOLUTION:
+- Built an entirely new layer on top of existing ATS tools
+- Helps companies efficiently win and keep talent
+- Automates candidate communication and experience
+
+HOW IT WORKS:
+- Integrates with existing hiring stack
+- Candidate-facing automation layer
+- Intelligent follow-up and status updates
+
+TEAM: Founders with experience at top HR-tech companies, can build, sell, ship
+
+ASK: Raising new round to scale the intelligent hiring layer
+
+KEY INSIGHT: The labor shortage means candidate experience is now a competitive advantage — companies that treat candidates well win the talent war.
+
+=== END DECK ===
+
+=== DECK: Cerebrium YC W22 - $8.5M Seed.pdf ===
+COMPANY: Cerebrium — ML Infrastructure for Developers
+ROUND: Seed, $8.5M (YC W22)
+
+TAGLINE: We're not changing the world. We're a business changing the world.
+
+TRACTION:
+- Growing rapidly (bar chart showing strong MoM growth)
+- 180 members in YC cohort validated the market
+- Strong inbound sales
+
+PRODUCT:
+- ML infrastructure platform
+- Hyperparameter tuning and model deployment
+- Reduces time to deploy ML models significantly
+
+DIFFERENTIATION:
+- 6 key differentiators vs. competitors
+- Faster deployment, lower cost, better DX
+- Focused on developer experience
+
+TEAM: Technical founders, ML/infra background
+
+MARKET: Every company building AI needs ML infrastructure
+
+GO-TO-MARKET: Developer-led, inbound-focused
+
+KEY INSIGHT: ML infrastructure is a picks-and-shovels play in the AI boom — developers need fast, cheap, reliable inference without managing servers.
+
+=== END DECK ===
+
+=== DECK: Eleven Labs - $2M Pre-seed.pdf ===
+COMPANY: ElevenLabs — AI Voice Generation
+ROUND: Pre-Seed, $2M
+
+TAGLINE: Affordable AI tools to create content everywhere in any language with high quality
+
+PROBLEM:
+- Creating multilingual audio content costs >$100/min and takes >2 weeks
+- No affordable tools to generate lifelike voices at scale
+
+SOLUTION:
+- AI voice synthesis platform
+- Any language, high quality, fast turnaround
+- Sub-$100/min pricing
+
+TRACTION:
+- Strong early user adoption
+- Integration partnerships with major platforms
+
+TEAM: Deep ML/audio engineering expertise
+
+MARKET: Global content creation, podcast, video, e-learning
+
+KEY INSIGHT: The bottleneck for global content distribution is audio localization. ElevenLabs makes it 100x cheaper and faster.
+
+=== END DECK ===
+
+=== DECK: Gredient Labs - $13M Series A.pdf ===
+COMPANY: Gradient Labs — Customer Ops AI for Financial Services
+ROUND: Series A, $13M
+
+TAGLINE: Customer ops AI agent purpose-built for financial services
+
+PROBLEM:
+- Chat quality of existing frontline AI agents is insufficient for complex or regulated use cases
+- Financial services customers have complex, high-stakes queries
+- Today's AI products are only scratching the surface of automation in customer ops
+
+SOLUTION:
+- Gradient Labs AI Platform
+- Purpose-built for regulated industries (finance, insurance)
+- Handles complex, compliance-sensitive customer interactions
+
+TRACTION:
+- $1.3M ARR
+- 3,380% growth
+- GTM started November 2024, delivering first results
+- Consistently growing number of AI conversations since Go-live in August
+- Growing customer sentiment scores
+
+DIFFERENTIATION:
+- 4 key customer use cases: [tier 1 support, escalation handling, proactive outreach, compliance documentation]
+- Built for compliance from day one, not bolted on
+
+KEY INSIGHT: Generic AI agents fail in finance because they can't handle regulatory nuance. Gradient Labs built compliance into the core architecture.
+
+=== END DECK ===
+
+=== DECK: Lago YC S21 - $22M Seed.pdf ===
+COMPANY: Lago — The Open Revenue Hub
+ROUND: Seed, $22M (YC S21)
+
+TAGLINE: The Open Revenue Hub — open-source billing infrastructure
+
+PROBLEM:
+- Billing is broken for usage-based and hybrid pricing models
+- Every company rebuilds billing from scratch — wasted engineering time
+- Existing tools (Stripe Billing, Chargebee) don't handle complex pricing
+
+SOLUTION:
+- Open-source billing and metering engine
+- Handles any pricing model: usage-based, seat-based, hybrid
+- Developer-friendly, self-hostable
+
+TRACTION:
+- Strong GitHub stars and developer community
+- Growing ARR with enterprise customers
+- Open source as acquisition flywheel
+
+WHY OPEN SOURCE:
+- Trust: developers read the code
+- Distribution: community-driven growth
+- Moat: ecosystem lock-in
+
+MARKET: Every SaaS company needs billing infrastructure
+
+KEY INSIGHT: Usage-based pricing is eating SaaS. The old billing tools weren't built for it. Open source creates trust and distribution simultaneously.
+
+=== END DECK ===
+
+=== DECK: Malibou YC W24 - $3.3M Seed.pdf ===
+COMPANY: Malibou — European HR OS
+ROUND: Seed, $3.3M (YC W24)
+
+TAGLINE: The first European HR OS to help SMBs pay and manage their teams, and ultimately help retaining them
+
+PROBLEM:
+- Payroll and HR processes in Europe are broken
+- In the U.S., there is one tool for almost everything (Gusto) — thanks to how isolated HR SaaS is in the U.S.
+- No Gusto equivalent exists for Europe
+- European compliance complexity (multi-country, multi-language payroll)
+
+SOLUTION:
+- Malibou: all-in-one HR OS for European SMBs
+- Payroll + HR management in one platform
+- Built for European regulatory complexity
+
+TRACTION:
+- Signed 100 clients through founders-led sales and cold outreach
+- Product already superior to classic HRs on core metrics
+
+MARKET:
+- French market alone: multi-billion euros
+- Pan-European expansion path
+
+TEAM:
+- Solid co-founders with startup, finance, sales, and tech experience
+- Driven by employee retention mission
+
+GO-TO-MARKET: Start France, expand EU
+
+KEY INSIGHT: Gusto proved that bundling payroll + HR in one product creates a sticky platform. Europe has no equivalent — different regulations don't kill the model, they create the moat.
+
+=== END DECK ===
+
+=== DECK: Pathrice YC S17 - $3M Seed.pdf ===
+COMPANY: Pathrise — Land Your Dream Job
+ROUND: Seed, $3M (YC S17)
+
+TAGLINE: Pathrise coaches job seekers on how to land the best job
+
+PROBLEM:
+- The job search is hard
+- Job seekers don't know how to optimize their job search to land the best job
+- Technical education exists but job search optimization does not
+
+SOLUTION:
+- Online program and platform
+- 6 months on average
+- Weekly live video sessions
+- Focused on optimizing the job search process, NOT technical education
+
+BUSINESS MODEL:
+- Income share agreement (ISA)
+- Students pay 9% of first year's income only after they get hired
+- Zero upfront cost — aligns incentives perfectly
+
+REVENUE:
+- 1,400+ fellows placed
+- ~50% growth rate
+- 90%+ hired within 6 months
+
+ENROLLMENT:
+- 1,000+ fellows enrolled
+- 40%+ monthly growth rate
+- Pipeline of 1,000+ prospects
+
+OUTCOMES: Google, Yelp, Salesforce, Amazon, Uber, Hinge, Atlassian
+
+MARKET:
+- 2.3 million new graduates in 20 states looking to switch to tech
+- $20.7B market at 9% income share
+
+NETWORK EFFECTS: Each new Pathrise fellow makes the network more valuable for future fellows
+
+TEAM: Kevin Wu, and co-founder Derrick Hathaway
+
+FUNDRAISING: $1M already committed in this process
+
+KEY INSIGHT: ISA model removes all friction from the purchase decision. When you only pay if you succeed, conversion is easy. The real product is outcomes, not content.
+
+=== END DECK ===
+
+=== DECK: Recal - $10M - Series A.pdf ===
+COMPANY: Recall — APIs for Voice & Video Intelligence
+ROUND: Series A, $10M
+
+TAGLINE: APIs + infrastructure for developers to rapidly build applications that ingest data from video conferences
+
+PROBLEM:
+- Integration with video platforms (Zoom, Meet, Teams) is brutally hard
+- 30+ days for initial build, 6+ months to maintain integrations
+- Every company building meeting intelligence rebuilds the same infrastructure
+
+SOLUTION:
+- Recall: unified API layer for all video conference platforms
+- Get to market in 1 week instead of months
+- One integration, all platforms
+
+TRACTION:
+- Grew ARR from $100K to $15M in 12 months
+- +331% NRR
+- +315% logo growth
+- Strong inbound and outbound sales
+- Annual contract expansion driven by usage growth
+
+MARKET:
+- $10 billion Annual Addressable Revenue Opportunity
+- Every company that touches meetings needs this
+
+COMPANY ORIGIN:
+- Founders built one of the first tools to process Zoom calls in real-time in 2020
+- Deep domain expertise in video infrastructure
+
+USE CASES: Meeting notetakers, sales intelligence, coaching tools, compliance recording
+
+ASK: Raising $10M to reach $8M ARR in 12 months
+
+KEY INSIGHT: The bottleneck for meeting AI isn't the AI — it's the infrastructure to get the data. Recall is the Plaid for video conferencing.
+
+=== END DECK ===
+
+=== DECK: Series - $3M Pre-Seed.pdf ===
+COMPANY: Series — AI Networking for Entrepreneurs
+ROUND: Pre-Seed, $3M
+
+TAGLINE: The way entrepreneurs connect is broken
+
+PROBLEM:
+- People assign more value to numbers than they do people
+- Your network isn't just a number — it's who you know, who can vouch for you
+- LinkedIn optimizes for connections, not introductions
+
+SOLUTION:
+- A network of AI friends who introduce you to the right people when you need them
+- AI matchmaking based on personality and goals
+
+HOW IT WORKS:
+1. Take a 15-minute personality quiz
+2. Get matched with 3 relevant founders
+3. AI facilitates the warm introduction
+
+TRACTION:
+- 56,880 Series alumni engaged
+- 23.6 messages per connection (high engagement)
+
+MONETIZATION:
+- Free tier
+- Series Premium: $200/mo, $375/mo, $550/mo tiers
+- Premium services for deeper matching and introductions
+
+FUTURE PLANS: Expand beyond entrepreneurs to all professionals
+
+KEY INSIGHT: The problem with networking isn't access — it's relevance and context. AI can solve the "who should I actually talk to" problem that LinkedIn never solved.
+
+=== END DECK ===
+
+=== DECK: Tiun - $2.5M Pre-seed.pdf ===
+COMPANY: Tiun — Financial Platform for the Next Generation
+ROUND: Pre-Seed, $2.5M
+
+TAGLINE: Changing how the next generation manages money and identity
+
+PROBLEM:
+- Modern consumers don't want to create a new account, earn credit cards, or commit to monthly subscriptions
+- Onboarding friction: 4 features, 3 questions, 6 additional info steps, 4 connecting steps
+- Existing financial apps built for older generations
+
+SOLUTION:
+- Better onboarding and payment experience for younger audience
+- Connect crypto wallet or app in one click
+- Identity verification integrated
+- Unified financial management
+
+PRODUCT:
+- Businesses can manage it all in one central place (Duo. Access.)
+- Subscription and payment management
+- Crypto-native identity layer
+
+TRACTION:
+- Built foundation over 18 months
+- 50+ partnerships including Thunderful
+- Growing user base
+
+TEAM: Experienced founding team in finance and tech
+
+MARKET: Next generation of financial consumers
+
+KEY INSIGHT: Gen Z doesn't want another bank account — they want identity + money in one frictionless layer that connects to everything they already use.
+
+=== END DECK ===
+
+=== DECK: smartrr - $10M Series A.pdf ===
+COMPANY: Smartrr — Subscription Commerce Platform
+ROUND: Series A, $10M
+
+TAGLINE: Build the leading recurring revenue platform to help online brands grow their lifetime value
+
+PROBLEM:
+- Subscription brands have a new set of challenges: customization, bundles, churn
+- Existing tools (Recharge, Bold) don't drive LTV — they just process payments
+- Consumers become subscribers but then churn
+
+SOLUTION:
+- Smartrr: one-of-a-kind subscription experience platform
+- Drives brands to nearly 5x higher LTV vs. competition
+- Focus on subscriber experience, not just payments
+
+DIFFERENTIATION:
+- Subscriber portal with full customization
+- Bundle builder
+- Loyalty and rewards built-in
+- Shopify-native (deep integration)
+
+CUSTOMERS: Successful brands across top-to-bottom industries using Smartrr to scale subscriptions
+
+MARKET:
+- Technology / Commerce / Subscription / Strategy Partner: Shopify ecosystem
+- 3x brands ready to scale with the right tech partner
+
+GO-TO-MARKET:
+- Account Executive led
+- Professor/educator program
+- Brand support model
+
+ASK: Raise to grow 3x YoY and accelerate
+
+KEY INSIGHT: Subscription commerce is won or lost in the subscriber experience, not the checkout. Smartrr is the first platform built around LTV maximization, not payment processing.
+
+=== END DECK ===
+
+=== DECK: storiaverse - $2.5M Pre-Seed.pdf ===
+COMPANY: Storiaverse — Creator Storytelling Platform
+ROUND: Pre-Seed, $2.5M
+
+TAGLINE: Be the home of the biggest stories of the 21st century
+
+VISION: THE HOME OF THE BIGGEST STORIES OF THE 21ST CENTURY
+
+TIMING / WHY NOW:
+- The rise of the creator economy
+- Untapped giants: book-length reading is underserved
+- Consumers want long-form reading experiences
+- Stan culture is driving IP fandom to new heights
+
+PROBLEM:
+- Great storytelling IP is fragmented across platforms
+- Creators lack infrastructure to build sustained story universes
+- Readers have no home for serialized, long-form creator content
+
+SOLUTION:
+- Storiaverse: platform for creators to build story universes
+- IP product and creator community
+- Long-form reading meets stan culture
+
+MARKET VALIDATION: Evidence of consumer appetite for serialized stories
+
+TARGET AUDIENCE: Story fans, creator communities, IP fandoms
+
+REVENUE STREAMS:
+- Subscription
+- Product placements
+- Merchandise
+
+COMPETITIVE LANDSCAPE: Positioned vs. Wattpad, Webtoon, Substack
+
+KEY INSIGHT: Every major media franchise started as a story. Storiaverse gives creators the infrastructure to build the next Marvel universe from the ground up.
+
+=== END DECK ===
